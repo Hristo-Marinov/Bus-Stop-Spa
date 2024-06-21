@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Information SPA</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="./app.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="navBar">
+            <a href="#" data-view="postInfoView">Bus Information</a>
+            <a href="#" id="loginLink" data-view="loginView">Login</a>
+            <a href="#" id="registerLink" data-view="registerView">Register</a>
+            <a href="#" id="myPostsLink" class="hidden" data-view="myPostsView">My Bus Stops</a>
+            <a href="#" id="addPostLink" class="hidden" data-view="addPostView">Add Bus Stop</a>
+            <a href="#" id="logoutLink" class="hidden" onclick="logoutUser()">Logout</a>
+        </nav>
+    </header>
+    <main id="main-content"></main>
+</body>
+</html>
