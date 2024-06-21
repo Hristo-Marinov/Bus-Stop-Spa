@@ -14,6 +14,6 @@ This is project for single page application using HTML, JS and CSS
 
 This project is using a local server made on JavaScript.
 
-To run the server you need to write this commands:
+To run the server you need to write this commands in the Terminal in VS Code:
 1. cd server "to enter the server folder"
 2. node server.js "to run the server"
